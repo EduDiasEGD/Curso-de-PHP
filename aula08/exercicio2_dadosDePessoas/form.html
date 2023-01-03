@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="_css/estilo.css"/>
+		<title></title>
+	</head>
+	<body>
+	<div>
+		<h4>Exercício 2 - Ler nome, ano de nascimento e sexo de uma pessoa e mostrar sua idade atual</h4>
+		
+		<form method="get" action="mostraIdade.php">
+			Nome<input type="text" name="nome"/><br/>
+			Ano de nascimento<input type="number" name="anonasc"/>
+			<fieldset><legend>Sexo</legend>
+				<input type="radio" name="sexo" id="masc" value="Homem"/>
+				<label for="masc>">Masculino</label><br/>
+				<input type="radio" name="sexo" id="fem" value="Mulher"/>
+				<label for="fem">Feminino</label>
+			</fieldset>
+			<input type="submit" value="Enviar"/>
+		</form>
+	</div>	
+	</body>
+</html>
